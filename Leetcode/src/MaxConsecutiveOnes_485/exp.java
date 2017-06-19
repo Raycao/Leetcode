@@ -1,10 +1,12 @@
 package MaxConsecutiveOnes_485;
 
+import java.util.Arrays;
+
 public class exp {
 	public static void main(String[] args){
 		exp fun = new exp();
 		int[] nums = {1,0,1,1,0,1};
-		
+
 		System.out.println(fun.findMaxConsecutiveOnes(nums));
 	}
 	
